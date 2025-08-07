@@ -1,0 +1,97 @@
+<div class="signup-container">
+  
+<div class="lhs">
+  <div class="signup">
+    <h3>Signup</h3>
+  </div>
+  
+
+  <div class="hero-title">
+    <div>Let's set up</div>
+    <div>your Operating</div>
+    <div>Agreement</div>
+  </div>
+
+  <div class="hero-subtitle">
+    <p>
+      All-in-one solution to for your business in the state.Form a new company
+      from scratch or onboard your existing US company
+    </p>
+<p-carousel
+  [value]="reviews"
+  [numVisible]="1"
+  [numScroll]="1"
+  [circular]="true"
+  [autoplayInterval]="5000"
+  [showIndicators]="true"
+  [showNavigators]="false"
+  styleClass="review-carousel"
+>
+  <ng-template let-review pTemplate="item">
+    <div class="review">
+      <div class="authorname">{{ review.headline }}</div>
+      <p>{{ review.review }}</p>
+      <p class="reviewer">{{ review.name }} <span>&#9733; &#9733; &#9733;</span></p>
+    </div>
+  </ng-template>
+</p-carousel>
+
+  </div>
+</div>
+
+
+
+  <div class="rhs"> 
+    <h2>Let's get started</h2>
+  <div class="form-group-name">
+    <div class="name-input">
+      <label for="FirstName">First name</label>
+      <input pInputText id="FirstName" type="text" />
+    </div>
+
+    <div class="name-input">
+      <label for="LastName">Last name</label>
+      <input pInputText id="LastName" type="text" />
+    </div>
+  </div>
+  <div class="form-group-email">
+    <label for="Email">Email</label>
+    <input pInputText id="Email" type="email" />
+  </div>
+
+  <div class="form-group-location">
+    <div class="location-input">
+      <label for="Country">Country</label>
+      <p-dropdown
+        [options]="countries"
+        placeholder="Select a Country"
+      ></p-dropdown>
+    </div>
+
+    <div class="location-input">
+      <label for="State">State</label>
+
+      <p-dropdown [options]="states" placeholder="Select a State"> </p-dropdown>
+    </div>
+  </div><div class="form-group-footer">
+  <div class="input-footer">
+    <label for="Phone">Phone number</label>
+    <input pInputText id="Phone" type="tel" />
+  </div>
+  <div class="input-footer">
+    <label for="Password">Password</label>
+    <input pInputText id="Password" type="password" />
+  </div>
+</div>
+
+
+  <a routerLink="/dashboard">
+    <button pButton label="GET STARTED -->" class="p-button"></button>
+  </a>
+
+  <div class="login">
+    <a routerLink="/login">Already have an account?Login</a>
+</div>
+
+</div>
+

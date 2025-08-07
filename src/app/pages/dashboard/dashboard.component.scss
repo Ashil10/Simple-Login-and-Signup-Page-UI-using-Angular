@@ -1,0 +1,23 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  color: blue;
+}
+
+.welcome-header {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center; // optional: align text to the left
+}
+
+.welcome-content {
+  max-width: 600px;
+  margin: auto; // vertically center this block
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  flex:auto;
+}

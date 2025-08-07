@@ -1,0 +1,134 @@
+.signup-container {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fc;
+}
+
+.lhs, .rhs {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.lhs {
+  width: 40%;
+  min-width: 250px;
+  background-color: blue;
+  color: white;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.rhs {
+  width: 60%;
+  gap: 20px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.review {
+  margin-top: 2rem;
+  font-size: 16px;
+  background-color: rgb(14, 14, 190);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.authorname {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signup {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.form-group-name,
+.form-group-location,
+.form-group-footer {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.name-input,
+.location-input,
+.input-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-email {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input,
+p-dropdown {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+::ng-deep .p-inputtext,
+::ng-deep .p-dropdown {
+  border: 1px solid #ccc; /* subtle border */
+  box-shadow: none;       /* removes any shadow or inset lines */
+  outline: none;          /* removes dark focus ring */
+  background-color: white;
+  transition: border-color 0.3s ease;
+}
+
+
+.p-button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.login {
+  align-self: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
