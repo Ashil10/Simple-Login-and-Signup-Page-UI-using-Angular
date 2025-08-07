@@ -1,27 +1,61 @@
-# FirstApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-## Development server
+# 🚀 Angular 17  Demo with PrimeNG
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This is a simple Angular 17 project built for learning and experimentation. It demonstrates basic user authentication features including **Login**, **Signup**, and a **Home Page**, styled using PrimeNG.
 
-## Code scaffolding
+## 📦 Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 17**
+- **PrimeNG** (UI components)
+- **TypeScript**
+- **SCSS/CSS**
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Project Structure
 
-## Running unit tests
+```
+src/
+├── app/
+│   ├── auth/
+│   │   ├── login/
+│   │   ├── signup/
+│   ├── home/
+│   ├── shared/
+│   ├── app-routing.module.ts
+│   └── app.module.ts
+├── assets/
+├── environments/
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Getting Started
 
-## Running end-to-end tests
+### Prerequisites
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js (v18+ recommended)
+- Angular CLI (`npm install -g @angular/cli`)
 
-## Further help
+### Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/your-username/angular-auth-demo.git
+cd angular-auth-demo
+npm install
+```
+
+### Run the App
+
+```bash
+ng serve
+```
+
+Visit `http://localhost:4200` in your browser.
+
+
+## 📚 Learning Goals
+
+This project was created to:
+
+- Practice Angular 17 features and syntax
+- Explore PrimeNG components
+- Understand routing and guards
